@@ -12,11 +12,11 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
-  <title>Bruk's Portfolio</title>
+  <title>Dozie & Bruk's Portfolio</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg custom__navbar p-0">
-    <div class="container-fluid bg-dark p-2 m-0">
+  <nav class="navbar navbar-expand-sm p-0 m-0 h-72">
+    <div class="container-fluid bg-secondary p-2 m-0">
         <a href="/" class="navbar-brand text-white">Bruk Teshome</a>
         <ul class="navbar-nav">
             <li class="nav-item"><a href="#" class="nav-link text-white">Portfolio</a></li>
@@ -26,8 +26,8 @@
         </ul>
     </div>
   </nav>
-  <section class="container-fluid d-flex custom__headline bg-secondary p-5">
-    <ul class="list-unstyled px-4">
+  <section class="container-fluid d-flex bg-dark p-5" style="background-image: url(img/header-illustration.png); background-size:cover;">
+    <ul class="list-unstyled d-flex flex-column align-items-center justify-content-center">
       <li class="pb-2"><a href="" class="text-white"><i class="bi bi-github"></i></a></li>
       <li class="pb-2"><a href="" class="text-white"><i class="bi bi-linkedin"></i></a></li>
       <li class="pb-2"><a href="" class="text-white"><img src="angellist.jpg" alt=""></a></li>
@@ -45,17 +45,16 @@
   </section>
   <section class="container">
     <h2 class="my-5">My Recent Works</h2>
-    <div class="row  custom__recent">
-      <div class="col-7 custom__img_placeholder-new">
-    </div>
-    <div class="row-5 ">
-      <img src="placeholder-new.png" alt="place">
-    </div>
-      <div class="multi">
+    <div class="row gx-5">
+     <!-- <div class="col-7"></div>-->
+      <div class="col-7 p-0">
+        <img class="col-12" src="placeholder-new.png" alt="place">
+      </div>
+      <div class="col ml-24">
         <h3>Multi-Post Stories</h3>
-        <p cl>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's
+        <p class="h5">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's
           standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-        <ul class="list-unstyled">
+        <ul class="list-unstyled col">
           <li class="badge bg-light border border-1 text-secondary">CSS</li>
           <li class="badge bg-light border border-1 text-secondary">HTML</li>
           <li class="badge bg-light border border-1 text-secondary">Bootstrap</li>
@@ -64,12 +63,12 @@
         <button class="btn btn-warning text-white" type="button">See Project</button>
       </div>
     </div>
-    <div class="row custom__recentrow mt-5">
-      <div class="col custom__card1 mx-1 d-flex">
-        <button class="btn btn-warning w-100 btn-lg text-white align-self-end" type="button">See Project</button>
+    <div class="row mt-5">
+      <div class="container-fluid col p-0 m-0 d-flex" style="background-image: url(img/imgplaceholder.png); background-size: cover;">
+        <button class="btn btn-warning w-100 text-white align-self-end" type="button">See Project</button>
       </div>
-      <div class="col card custom__card2 mx-1">
-        <div class="h-75"></div>
+      <div class="col card mx-2" style="background-image: url(img/Placeholder-sec.png); background-size: cover;">
+        <div class="h-100"></div>
         <div class="card-body1">
           <h5 class="card-title text-white">Data Dashboard HealthCare</h5>
           <p class="card-text text-white">A daily selection of privately personalized reads; no accounts or sign-ups
@@ -82,8 +81,8 @@
           </ul>
         </div>
       </div>
-      <div class="col card custom__card3 mx-1">
-        <div class="h-75"></div>
+      <div class="col card mx-2" style="background-image: url(img/place.png); background-size: cover;">
+        <div class="h-100"></div>
         <div class="card-body2">
           <h5 class="card-title text-white">Website Protfolio </h5>
           <p class="card-text text-white">A daily selection of privately personalized reads; no accounts or sign-ups
@@ -97,8 +96,8 @@
       </div>
     </div>
     <div class="row custom__recentrow mt-5">
-      <div class="col card custom__card4 mx-1">
-        <div class="h-75"></div>
+      <div class="col card mx-2" style="background-image: url(img/Placeholder3.png); background-size: cover;">
+        <div class="h-100"></div>
         <div class="card-body3">
           <h5 class="card-title text-white">Data Dashboard HealthCare</h5>
           <p class="card-text text-white">A daily selection of privately personalized reads; no accounts or sign-ups
@@ -111,7 +110,7 @@
           </ul>
         </div>
       </div>
-      <div class="col card custom__card2 mx-1">
+      <div class="col card mx-2" style="background-image: url(img/Placeholder-sec.png); background-size: cover;">
         <div class="h-75"></div>
         <div class="card-body4">
           <h5 class="card-title text-white">Data Dashboard HealthCare</h5>
@@ -125,7 +124,7 @@
           </ul>
         </div>
       </div>
-      <div class="col card custom__card3 mx-1">
+      <div class="col card mx-2" style="background-image: url(img/place.png); background-size: cover;">
         <div class="h-75"></div>
         <div class="card-body5">
           <h5 class="card-title text-white">Website Protfolio </h5>
@@ -140,21 +139,21 @@
       </div>
     </div>
   </section>
-  <section class="custom__about_me mt-5">
-    <div class="container pt-5">
-      <div class="w-50">
-        <h2 class="display-1 text-warning">About Me</h2>
-        <p class="text-white">Hello I’m a software developer! I can help you build a product , feature or website Look
+  <section class="container-lg mt-5 bg-dark">
+    <div class="container-lg py-30">
+      <div class="container-lg" style="background-image: url(img/group.png); background-size:contain; background-repeat: no-repeat; background-position:right;">
+        <h2 class="display-1 text-warning ">About Me</h2>
+        <p class=" w-50 text-white pl-5">Hello I’m a software developer! I can help you build a product , feature or website Look
           through some of my
           work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
         </p>
         <button class="btn btn-warning btn-lg" type="button">Get My Resume</button>
       </div>
-      <div class="new">
+      <div class="d-flex justify-content-between text-white mx-142">
         <div>
           <h3>Language</h3>
           <ul>
-            <li>Javascript</li>
+            <li>Javascript</i>
             <li>Ruby</li>
             <li>HTML</li>
             <li>CSS</li>
